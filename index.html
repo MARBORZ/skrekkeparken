@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🕯️ Skrekk-kart i Brekkeparken 🕯️</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/normilize.css">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+</head>
+<body>
+  <div class="intro">
+    <div class="intro__container">
+      <h1 class="intro__title">Hei og velkommen til Skrekkeparken Kart!</h1>
+      <p class="intro__description">
+        Velkommen til Skrekkeparken! <br>
+         Denne siden inneholder diverse oppdrag i Brekkeparken,
+         som du må prøve deg på og løse. <br>
+         Du får Skrekkepoeng som belønning. 
+         Laget som samler flest poeng vinner.
+      </p>
+      <a href="./rules.html" target="_blank" class="intro__link link">Trykk for å se instruksjoner</a>
+      <button class="intro__button" id="button">Start Eventyret</button>
+    </div>
+  </div>
+
+  <header>
+    <div class="header__container">
+        <span class="header__menu" id="menu">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </span>
+      <h3 class="points" id="points">Skrekkepoeng: <span id="score">0</span></h3>
+    </div>
+    <nav class="header__nav" id="nav">
+        <button id="toggle-light" class="nav__btn light-btn light-mode-active">Light mode</button>
+        <button id="toggle-dark" class="nav__btn dark-btn dark-mode-active">Dark mode</button>
+        <a class="link" id="toggle-brekkeparken" href="https://maps.app.goo.gl/UxgFf9sc4kY3dt829" target="_blank">Brekkeparken Adressen</a>
+        <a href="./rules.html" target="_blank" class="instruksjoner link">instruksjoner</a>
+    </nav>
+
+    <div id="map"></div>
+  </header>
+
+  <div class="buttons-container">
+    <div class="geo-button button" id="geobutton"></div>
+    <div class="task-button button" id="taskbutton"></div>
+
+    <div class="rigth-side">
+      <div class="brekkeparken-button button" id="brekkeparken"></div>
+    </div>
+  </div>
+
+  <div id="task-popup" class="popup" style="display:none;">
+      <p id="task-description"></p>
+      <h2 id="task-question"></h2>
+    <input id="task-answer" type="text" placeholder="Skriv svaret her">
+    <button id="task-submit">Send inn</button>
+  </div>
+
+  <div class="sidebar" id="sidebar">
+    <h3 class="points">Skrekkepoeng: <span id="sidebar-score">0</span></h3>
+    <ul id="task-list"></ul>
+  </div>
+
+  <!-- Leaflet JS  -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- Script.js -->
+   <script type="module" src="js/index.js"></script>
+</body>
+</html>
