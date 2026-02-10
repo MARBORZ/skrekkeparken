@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Halloween Dag",
+    "question": "Når feirer vi Halloween i Norge? (dag, måneden)",
+    "answer": "31 oktober",
+    "lat": 59.20800867269835,
+    "lng": 9.613924932568223
+  },
+  {
+    "title": "Bank på døra",
+    "question": "Hva pleier barna å si når de banker på døra?",
+    "answer": "knask eller knep",
+    "lat": 59.2092291659952,
+    "lng": 9.613060946438097
+  },
+  {
+    "title": "Hvor kommer Halloween fra",
+    "question": "Hvor kom Halloween-tradisjonen opprinnelig fra? hint: to land",
+    "answer": "irland og skottland",
+    "lat": 59.20720122234605,
+    "lng": 9.613827861873583
+  },
+  {
+    "title": "Halooween gresskar",
+    "question": "Hva lager man av et gresskar på Halloween?",
+    "answer": "gresskarlykt",
+    "lat": 59.2099103,
+    "lng": 9.6137497
+  },
+  {
+    "title": "Hvem er dette #1",
+    "description": "Han bor i fjellet, snorker under broen, skremmer folk – men solen forvandler ham til en stein.",
+    "question": "Hvem er dette?",
+    "answer": "troll",
+    "lat": 59.20818,
+    "lng": 9.61299
+  },
+  {
+    "title": "Hvem er dette #2",
+    "description": "Hun er vakker i skogen, synger en sang, kaller deg til å følge etter henne inn i krattet – men halen hennes er som en ku sin.",
+    "question": "Hvem er dette?",
+    "answer": "huldra",
+    "lat": 59.20896,
+    "lng": 9.61221
+  },
+  {
+    "title": "Hvem er dette #3",
+    "description": "Hun flyr på en kost, kjelen koker, hun brygger en drikk – hun er ingen vanlig kvinne.",
+    "question": "Hva heter hun?",
+    "answer": "witch",
+    "lat": 59.20808,
+    "lng": 9.61517
+  },
+    {
+    "title": "Hvem er dette #4",
+    "description": "Liten, med rød lue, piler rundt på gården, elsker en bolle med grøt – vokter gårdshuset.",
+    "question": "Hvem er dette?",
+    "answer": "nisse",
+    "lat": 59.20957,
+    "lng": 9.61232
+  },
+  {
+    "title": "Hvem er dette #5",
+    "description": "Jeg lever i vannet, er vakker og hvit, synger så søtt, men drar deg ned i det dype og kalde.",
+    "question": "Hvem er jeg?",
+    "answer": "nøkken",
+    "lat": 59.20761,
+    "lng": 9.61499
+  },
+  {
+    "title": "Hvem er dette #6",
+    "description": "Jeg er et gjenferd, et spøkelse uten fred, født av et barn som ble drept eller forlatt. Jeg roper høyt, og du hører meg i myr eller i natt.",
+    "question": "Hvem er jeg?",
+    "answer": "myling",
+    "lat": 59.20843,
+    "lng": 9.61333
+  }
+]
+
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruksjoner - Skrekkeparken</title>
+    <link rel="stylesheet" href="css/normilize.css">
+    <link rel="stylesheet" href="css/rules-styles.css">
+</head>
+<body>
+    <nav class="navigation">
+        <a href="index.html" class="navigation__link">← Tilbake til spillet</a>
+    </nav>
+
+    <main class="container container--intro">
+        <h1 class="container__title">Velkommen til instruksjoner! 👻</h1>
+        <p class="container__text">Før du starter jakten i Brekkeparken, bør du mestre disse verktøyene.</p>
+
+        <h2 class="container__subtitle">Kontrollpanel</h2>
+
+        <ul class="buttons">
+            <li class="buttons__item">
+                <div class="buttons__icon-wrapper">
+                    <img src="rules-img/my-geo.png" alt="Mine Geo" class="buttons__image">
+                </div>
+                <h3 class="buttons__title">Mine Geo</h3>
+                <p class="buttons__description">
+                    Aktiverer din GPS-posisjon. 
+                    <span class="warning">Spillet kan ikke starte uten denne!</span>
+                </p>
+            </li>
+
+            <li class="buttons__item">
+                <div class="buttons__icon-wrapper">
+                    <img src="rules-img/brekkeparken-map.png" alt="Kart" class="buttons__image">
+                </div>
+                <h3 class="buttons__title">Brekkeparken</h3>
+                <p class="buttons__description">
+                    Åpner oversiktskartet som hjelper deg å navigere mellom de hjemsøkte områdene.
+                </p>
+            </li>
+            
+            <li class="buttons__item">
+                <div class="buttons__icon-wrapper">
+                    <img src="rules-img/Skrekkepoeng-sidebar-button.png" alt="Oppgaver" class="buttons__image">
+                </div>
+                <h3 class="buttons__title">Oppgavene</h3>
+                <p class="buttons__description">
+                    Her ser du din "Bestiary" – en oversikt over spøkelser du har møtt og dine resultater.
+                </p>
+            </li>
+        </ul>
+    </main>
+
+    <section class="container container--interaction">
+        <h2 class="container__subtitle">Slik fanger du spøkelser</h2>
+
+        <ul class="interaction">
+            <li class="interaction__item">
+                <img src="rules-img/pop-up.png" alt="Pop-up" class="interaction__image">
+                <h3 class="interaction__title">1. Møt spøkelset</h3>
+                <p>Når du er nær nok, klikk på ikonet for å starte utfordringen.</p>
+            </li>
+
+            <li class="interaction__item">
+                <img src="rules-img/answer.png" alt="Svar" class="interaction__image">
+                <h3 class="interaction__title">2. Svar på gåten</h3>
+                <p>Skriv inn svaret ditt i feltet og trykk på send-knappen.</p>
+            </li>
+
+            <li class="interaction__item highlight-correct">
+                <img src="rules-img/correct.png" alt="Riktig" class="interaction__image">
+                <h3 class="interaction__title">Riktig svar</h3>
+                <p>Belønnes med <strong>+10 Skrekkepoeng</strong>.</p>
+            </li>
+
+            <li class="interaction__item highlight-fail">
+                <img src="rules-img/fail.png" alt="Feil" class="interaction__image">
+                <h3 class="interaction__title">Feil svar</h3>
+                <p>Du mister <strong>10 Skrekkepoeng</strong>.</p>
+            </li>
+        </ul>
+
+        <div class="outro">
+            <p class="outro__text">Hovedmålet er å fange alle spøkelsene. Klarer du det, vinner du!</p>
+            <h2 class="outro__wish">Lykke til! 🏆</h2>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__info">
+                <div class="footer__section">
+                    <h3 class="footer__title">Om prosjektet</h3>
+                    <p class="footer__text">Skoleoppgave ved Porsgrunn VGS.</p>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__title">Kontakt</h3>
+                    <a href="mailto:masuevamadi@gmail.com" class="footer__link">masuevamadi@gmail.com</a>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__title">Utvikler</h3>
+                    <a href="https://marborz.one" class="footer__text">Amadi Masuev</a>
+                </div>
+            </div>
+            <div class="footer__divider"></div>
+            <p class="footer__copyright">© 2026 Skrekkeparken Spill.</p>
+        </div>
+    </footer>
+</body>
+</html>
