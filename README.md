@@ -1,20 +1,20 @@
 # Skrekkeparken
 
-Interactive map game built with Leaflet and JSON-driven events. Players explore Brekkeparken, complete tasks, and earn points.
+Interactive map game with Leaflet. Made for an event in Brekkeparken park.
 
 ## 🎨 About
 
-Skrekkeparken (Horror Park) is an interactive map game for an event in Brekkeparken. Players navigate a real map, find markers with tasks, answer questions, and earn "Skrekkepoeng" (horror points). The team with the most points wins.
+Map-based game where teams explore Brekkeparken, find markers, answer questions, and earn points. Built for a local event. Uses Leaflet for the map and JSON for task data.
 
 ## ✨ Features
 
-- **Interactive Leaflet Map** — Real map with custom markers
-- **JSON-Driven Events** — Tasks loaded from data/markers.json
-- **Point-Based Progression System** — Track team points
-- **Geolocation** — Find user's position on the map
-- **Dark/Light Theme** — Toggle display modes
-- **Task Sidebar** — List of completed tasks
-- **Responsive Design** — Works on mobile devices
+- **Leaflet Map** — Real map with custom markers
+- **JSON Tasks** — Tasks loaded from data/markers.json
+- **Point System** — Track team points
+- **Geolocation** — Find your position on the map
+- **Dark/Light Theme** — Toggle themes
+- **Task Sidebar** — See completed tasks
+- **Mobile Friendly** — Works on phones
 
 ## 🛠️ Tech Stack
 
