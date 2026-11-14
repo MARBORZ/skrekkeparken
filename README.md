@@ -1,15 +1,13 @@
 # skrekkeparken
 
-Map game made for an event in Brekkeparken. Teams walk around the park, find points on a Leaflet map, answer questions and collect points.
+Map-based game for a local event in Brekkeparken. Teams walk around the park, find markers, answer questions and earn points.
 
-Tasks and marker positions come from `data/markers.json`, so the route can be changed without touching the code. The game rules are on `rules.html`.
+Leaflet for the map, tasks and markers come from `data/markers.json` – route can be changed without touching code. Rules are on `rules.html`.
 
 ## Run
-
-Serve the folder with any static server, for example:
 
 ```bash
 npx serve .
 ```
 
-Geolocation only works over HTTPS or on localhost.
+Geolocation works only on HTTPS or localhost.
